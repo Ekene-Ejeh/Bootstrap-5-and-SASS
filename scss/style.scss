@@ -1,2 +1,19 @@
+@use "custom";
 
-@use 'custom';
+// import the components
+
+@use "components/annimations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+// import the sections
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies";
+@use "sections/services";
+@use "sections/testimonial.scss";
+@use "sections/faq.scss";
+@use "sections/portfolio.scss";
+@use "sections/get-started";
+@use "sections/footer";
